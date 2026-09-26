@@ -1,0 +1,12 @@
+bundle:
+  name: zomato_de_pipeline
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://dbc-8a908ece-89b0.cloud.databricks.com/
